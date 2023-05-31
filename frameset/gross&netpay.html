@@ -1,0 +1,17 @@
+<html>
+<body>
+<script language="javascript">
+var basicpay=54000;
+var houseallowance=10%*54000;
+var transportallowance=8%*54000;
+var nhif=7%*54000;
+var nssf=11%*54000;
+var paye=9%*54000;
+var grosspay=basicpay+houseallowance+transportallowance;
+var netpay=grosspay-[nhif+nssf+paye];
+document.write("grosspay=" +grosspay);
+document.write("<br>");
+document.write("netpay=" +netpay);			
+</script>
+</body>
+</html>
